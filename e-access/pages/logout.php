@@ -1,0 +1,7 @@
+<?php
+	$here='logout';
+	session_start();
+	session_destroy();
+	header('Location:../pages/index.php');
+	exit();
+?>
